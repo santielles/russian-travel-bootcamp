@@ -96,3 +96,54 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 320px) {
+  .page {
+    width: 320px;
+  }
+
+  .header {
+    margin: 16px 16px 0;
+  }
+
+  .header__logo {
+    max-width: 142px;
+    max-height: 42px;
+  }
+
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header__lang-link_no-underline {
+    text-decoration-line: none;
+  }
+
+  .main {
+    margin-top: 48px;
+  }
+
+  .lead {
+    max-width: 320px;
+    margin: 0;
+  }
+
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .lead__subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 16px;
+  }
+
+  .lead__image {
+    padding-top: 40px;
+    max-width: 100%;
+  }
+}
