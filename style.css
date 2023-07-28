@@ -1,0 +1,48 @@
+.body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background: #2A2C2F;
+  color: white;
+  width: 1280px;
+  font-family: Inter;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 48px 0;
+}
+
+.header__logo {
+  max-width: 176px;
+  max-height: 52px;
+}
+
+.header__lang-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+  gap: 18px;
+}
+
+.header__lang-link {
+  color: #FFF;
+  text-align: right;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.header__lang-link_no-underline {
+  text-decoration-line: none;
+}
