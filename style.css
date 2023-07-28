@@ -1,0 +1,276 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 6875px;
+  background: #2A2C2F;
+  color: white;
+  font-family: Inter;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
+
+}
+
+.header__logo {
+  max-width: 176px;
+  max-height: 52px;
+}
+
+.header__lang-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  align-items: flex-end
+}
+
+.header__lang-link {
+  color: white;
+  text-align: right;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.header__lang-link_noneline {
+  text-decoration-line: none;
+  padding-left: 18px;
+}
+
+.main {}
+
+.lead {
+  max-width: 984px;
+  height: 1005px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+.lead__title {
+  text-align: center;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100px;
+  width: 720px;
+  height: 200px;
+  margin: 0;
+}
+
+.lead__subtitle {
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-top: 32px;
+  margin: 0;
+  width: 640px;
+  height: 72px;
+}
+
+.lead__image {
+  padding-top: 64px;
+  max-width: 100%;
+}
+
+.lead__caption {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  align-self: flex-start;
+  padding-top: 8px;
+  margin: 0;
+}
+
+.intro {
+  margin: 114px 442px 0 148px;
+  max-width: 690px;
+  height: 429px;
+}
+
+.intro__title {
+  width: 690px;
+  height: 58px;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+  margin: 0;
+}
+
+.intro__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163%;
+  width: 690px;
+  padding-top: 40px;
+  margin: 0;
+}
+
+.intro__list {
+  width: 690px;
+  height: 90px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 33px 0 0;
+  margin: 0;
+  list-style: none;
+}
+
+.photo-grid {
+  max-width: 1184px;
+  height: 671px;
+  margin: 92px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(284px, 213px));
+  gap: 16px;
+}
+
+.photo-grid__item {
+  width: 284px;
+  height: 213px;
+}
+
+.places {
+  max-width: 984px;
+  height: 3392px;
+  display: flex;
+  flex-direction: column;
+  margin: 92px auto;
+  font-family: Inter;
+}
+
+.place {
+  max-width: 984px;
+  height: 660px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: minmax(76px 152px) 1fr;
+  grid-column-gap: 48px;
+  grid-row-gap: 40px;
+  grid-template-areas:
+    "title url"
+    "image paragraph";
+
+}
+
+.place__title {
+  max-width: 460px;
+  min-height: 76px;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 76px;
+  margin: 0;
+  grid-area: title;
+}
+
+.place__website {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  grid-area: url;
+}
+
+.place__link {
+  width: 456px;
+  color: #AAA;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 2px;
+}
+
+.place__url-heading {
+  color: white;
+  width: 456px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+
+.place__image {
+  width: 460px;
+  height: 460px;
+  grid-area: image;
+}
+
+.place__paragraphs {
+  margin: 0;
+  grid-area: paragraph;
+}
+
+.place__paragraph {
+  width: 484px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163%;
+  margin: 0;
+}
+
+.place__paragraph:nth-child(2) {
+  margin: 26px 0 0;
+}
+
+
+.cover {
+  width: 100vw;
+}
+
+.cover__overlay {
+  color: white;
+  font-family: Inter;
+  width: calc(100% - 96px);
+  height: 740px;
+  background-image: url(./images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 92px auto 0;
+  text-align: center;
+}
+
+.cover__title {
+  width: 560px;
+  height: 152px;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 76px;
+  margin: 0;
+}
+
+.cover__subtitle {
+  width: 360px;
+  height: 66px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 32px 0 0;
+
+}
