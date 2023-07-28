@@ -46,3 +46,53 @@
 .header__lang-link_no-underline {
   text-decoration-line: none;
 }
+
+.main {
+  margin-top: 56px;
+}
+
+.lead {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 148px;
+}
+
+.lead__title {
+  max-width: 720px;
+  margin: 0;
+  text-align: center;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+.lead__subtitle {
+  max-width: 640px;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-top: 32px;
+}
+
+.lead__image {
+  padding-top: 64px;
+  max-width: 100%;
+}
+
+.lead__caption {
+  margin: 0;
+  padding-top: 8px;
+  align-self: flex-start;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
