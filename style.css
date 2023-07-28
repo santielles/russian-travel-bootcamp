@@ -7,9 +7,9 @@
 .page {
   display: flex;
   flex-direction: column;
-  background: #2A2C2F;
-  color: white;
   width: 1280px;
+  color: white;
+  background: #2A2C2F;
   font-family: Inter;
 }
 
@@ -27,10 +27,10 @@
 .header__lang-links {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
   align-items: flex-end;
   gap: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 .header__lang-link {
@@ -52,16 +52,16 @@
 }
 
 .lead {
-  max-width: 984px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 148px;
+  max-width: 984px;
 }
 
 .lead__title {
-  max-width: 720px;
   margin: 0;
+  max-width: 720px;
   text-align: center;
   font-size: 96px;
   font-style: normal;
@@ -70,14 +70,14 @@
 }
 
 .lead__subtitle {
-  max-width: 640px;
   margin: 0;
+  padding-top: 32px;
+  max-width: 640px;
   text-align: center;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
-  padding-top: 32px;
 }
 
 .lead__image {
@@ -95,6 +95,45 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+
+.intro {
+  margin: 92px auto 0 148px;
+  max-width: 690px;
+}
+
+.intro__title {
+  margin: 0;
+  max-width: 690px;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+}
+
+.intro__text {
+  margin: 0;
+  padding-top: 40px;
+  max-width: 690px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163%;
+}
+
+.intro__list {
+  list-style: none;
+  margin: 0;
+  padding: 33px 0 0;
+  max-width: 690px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.intro__list-number {
+  font-weight: 400;
 }
 
 @media screen and (max-width: 320px) {
