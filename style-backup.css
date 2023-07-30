@@ -241,7 +241,7 @@
   margin: 0 auto;
   max-width: 1184px;
   aspect-ratio: 1184 / 740;
-  background-image: url(./images/cover-trains.jpg);
+  background-image: url(../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   color: white;
