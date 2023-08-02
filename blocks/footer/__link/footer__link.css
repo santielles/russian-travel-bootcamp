@@ -7,6 +7,13 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 522px) {
+  .footer__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__link {
     font-size: 24px;
