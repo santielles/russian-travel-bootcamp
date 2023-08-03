@@ -7,7 +7,13 @@
   padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 522px) {
+  .footer__links {
+    gap: 6px;
+  }
+}
+
+@media screen and (max-width: 474px) {
   .footer__links {
     flex-direction: column;
     gap: 32px;

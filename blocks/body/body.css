@@ -3,4 +3,5 @@
   justify-content: center;
   margin: 0;
   background: #2A2C2F;
+  overflow-y: hidden;
 }

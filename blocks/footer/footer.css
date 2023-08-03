@@ -29,11 +29,11 @@
 
 @media screen and (max-width: 570px) {
   .footer {
-    max-width: 380px;
+    max-width: 409px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 474px) {
   .footer {
     max-width: 186px;
     margin: 64px auto 24px 16px;

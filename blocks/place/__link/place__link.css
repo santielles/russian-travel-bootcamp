@@ -13,7 +13,7 @@
   transition: 1s;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 474px) {
   .place__link {
     max-width: 288px;
   }

@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 474px) {
   .intro__text {
     max-width: 288px;
   }

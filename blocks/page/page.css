@@ -1,7 +1,7 @@
 .page {
   display: flex;
   flex-direction: column;
-  width: 1280px;
+  max-width: 1280px;
   color: white;
   background: #2A2C2F;
   font-family: 'Inter', 'Arial', serif;
@@ -9,18 +9,18 @@
 
 @media screen and (max-width: 1024px) {
   .page {
-    width: 1024px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 474px) {
   .page {
-    width: 320px;
+    max-width: 320px;
   }
 }
